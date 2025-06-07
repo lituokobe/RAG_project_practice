@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9300397038459778,
+        "coordinates": {
+            "points": [
+                [
+                    367.22991943359375,
+                    512.0668933333329
+                ],
+                [
+                    367.22991943359375,
+                    628.2985599999998
+                ],
+                [
+                    1354.7939453125,
+                    628.2985599999998
+                ],
+                [
+                    1354.7939453125,
+                    512.0668933333329
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 15,
+        "parent_id": "58c1b97c7988d78495527a0726a7c85a",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "95bc71fb3542f420dfa50e22eb8c734f"
+    },
+    "page_content": "[10] Graves, A., Fern´andez, S., Gomez, F., Schmidhuber, J.: Connectionist temporal classiﬁcation: labelling unsegmented sequence data with recurrent neural networks. In: Proceedings of the 23rd international conference on Machine learning. pp. 369–376 (2006)",
+    "type": "Document"
+}

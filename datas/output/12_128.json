@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.8932577967643738,
+        "coordinates": {
+            "points": [
+                [
+                    371.81111111111113,
+                    1787.0445955555554
+                ],
+                [
+                    371.81111111111113,
+                    1846.2818933333333
+                ],
+                [
+                    1342.3699951171875,
+                    1846.2818933333333
+                ],
+                [
+                    1342.3699951171875,
+                    1787.0445955555554
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 12,
+        "parent_id": "9d917f215b0115c679105482b80d2d2d",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "184a3abfd34e7aa04632979ee3c2de36"
+    },
+    "page_content": "17 This measures the number of edits from the ground-truth text to the predicted text, and lower is better.",
+    "type": "Document"
+}

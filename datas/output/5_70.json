@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.702704668045044,
+        "coordinates": {
+            "points": [
+                [
+                    348.7413635253906,
+                    1480.6365022222224
+                ],
+                [
+                    348.7413635253906,
+                    1505.5431688888887
+                ],
+                [
+                    890.8476666666662,
+                    1505.5431688888887
+                ],
+                [
+                    890.8476666666662,
+                    1480.6365022222224
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 5,
+        "parent_id": "6e9df774416cc71548308e324b4bdbb7",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "a002e13c7ea2613b2eabb9ea3501856d"
+    },
+    "page_content": "3 model = lp . De t e c tro n2 Lay outM odel (",
+    "type": "Document"
+}

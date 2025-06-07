@@ -1,0 +1,42 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.8530994057655334,
+        "coordinates": {
+            "points": [
+                [
+                    373.6114196777344,
+                    1128.66429
+                ],
+                [
+                    373.6114196777344,
+                    1156.3381788888887
+                ],
+                [
+                    800.193603515625,
+                    1156.3381788888887
+                ],
+                [
+                    800.193603515625,
+                    1128.66429
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 8,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "Title",
+        "element_id": "3d803300353e1055611e38b1b2eb19a7"
+    },
+    "page_content": "3.4 Storage and visualization",
+    "type": "Document"
+}

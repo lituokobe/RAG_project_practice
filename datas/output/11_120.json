@@ -1,0 +1,42 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.710536003112793,
+        "coordinates": {
+            "points": [
+                [
+                    369.121826171875,
+                    1787.0445955555554
+                ],
+                [
+                    369.121826171875,
+                    1846.2818933333333
+                ],
+                [
+                    1335.8948114844447,
+                    1846.2818933333333
+                ],
+                [
+                    1335.8948114844447,
+                    1787.0445955555554
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 11,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "c5b22d5a9f8b657ad4acdf6ad1f0bdd0"
+    },
+    "page_content": "15 A document page consists of eight rows like this. For simplicity we skip the row segmentation discussion and refer readers to the source code when available.",
+    "type": "Document"
+}

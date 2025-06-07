@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.7096399068832397,
+        "coordinates": {
+            "points": [
+                [
+                    653.4326782226562,
+                    257.4113377777776
+                ],
+                [
+                    653.4326782226562,
+                    283.01539111111094
+                ],
+                [
+                    1337.61767578125,
+                    283.01539111111094
+                ],
+                [
+                    1337.61767578125,
+                    257.4113377777776
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 13,
+        "parent_id": "9d917f215b0115c679105482b80d2d2d",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "2b7101f39954d5301166b82906202ea9"
+    },
+    "page_content": "LayoutParser: A Uniﬁed Toolkit for DL-Based DIA",
+    "type": "Document"
+}

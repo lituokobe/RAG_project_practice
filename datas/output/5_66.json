@@ -1,0 +1,42 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9094009399414062,
+        "coordinates": {
+            "points": [
+                [
+                    374.2168884277344,
+                    1053.9226233333331
+                ],
+                [
+                    374.2168884277344,
+                    1081.596512222222
+                ],
+                [
+                    804.2291259765625,
+                    1081.596512222222
+                ],
+                [
+                    804.2291259765625,
+                    1053.9226233333331
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 5,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "Title",
+        "element_id": "6e9df774416cc71548308e324b4bdbb7"
+    },
+    "page_content": "3.1 Layout Detection Models",
+    "type": "Document"
+}

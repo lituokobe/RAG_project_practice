@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.547583818435669,
+        "coordinates": {
+            "points": [
+                [
+                    408.5068054199219,
+                    327.13373444444437
+                ],
+                [
+                    408.5068054199219,
+                    354.8076233333335
+                ],
+                [
+                    833.3587036132812,
+                    354.8076233333335
+                ],
+                [
+                    833.3587036132812,
+                    327.13373444444437
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 12,
+        "parent_id": "9d917f215b0115c679105482b80d2d2d",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "4bba0fe5b17811e76afbf7650f2f6792"
+    },
+    "page_content": "To decipher the complicated layout",
+    "type": "Document"
+}

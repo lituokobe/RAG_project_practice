@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "coordinates": {
+            "points": [
+                [
+                    470.40833333333336,
+                    321.79394444444443
+                ],
+                [
+                    470.40833333333336,
+                    853.9777777777778
+                ],
+                [
+                    1238.8140833333332,
+                    853.9777777777778
+                ],
+                [
+                    1238.8140833333332,
+                    321.79394444444443
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 9,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "Image",
+        "element_id": "02a078081972f7bdb26f06a787773a30"
+    },
+    "page_content": "0g Burpunog uayor Aeydsiq:1 vondo 10g Guypunog usyou ap:z uondo Mode I: Showing Layout on the Original Image Mode Il: Drawing OCR’ Text at the Correspoding Position",
+    "type": "Document"
+}

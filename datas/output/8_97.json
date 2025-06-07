@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.8493589758872986,
+        "coordinates": {
+            "points": [
+                [
+                    371.81111111111113,
+                    1817.4862622222222
+                ],
+                [
+                    371.81111111111113,
+                    1846.2818933333333
+                ],
+                [
+                    686.3978881835938,
+                    1846.2818933333333
+                ],
+                [
+                    686.3978881835938,
+                    1817.4862622222222
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 8,
+        "parent_id": "9e8599877fa8025a800477652dcd29be",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "894921dce9d1291116c38d561c2fff59"
+    },
+    "page_content": "14 https://altoxml.github.io",
+    "type": "Document"
+}

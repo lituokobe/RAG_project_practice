@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "coordinates": {
+            "points": [
+                [
+                    374.3472222222222,
+                    321.75408333333326
+                ],
+                [
+                    374.3472222222222,
+                    760.8166666666666
+                ],
+                [
+                    1334.9430555555555,
+                    760.8166666666666
+                ],
+                [
+                    1334.9430555555555,
+                    321.75408333333326
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 10,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "Image",
+        "element_id": "747f46c43a88768fd543e10bac84203b"
+    },
+    "page_content": "Intra-column reading order Token Categories tie (Adress tee Ewumber Variable Column reading order HEE company ype Column Categories (J tite Adress 1] ree [7] Section Header Maximum Allowed Height (b) Illustration of the recreated document with dense text structure for better OCR performance",
+    "type": "Document"
+}

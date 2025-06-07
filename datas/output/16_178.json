@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9276416301727295,
+        "coordinates": {
+            "points": [
+                [
+                    377.51910400390625,
+                    1486.1391155555552
+                ],
+                [
+                    377.51910400390625,
+                    1571.9263377777777
+                ],
+                [
+                    1345.147705078125,
+                    1571.9263377777777
+                ],
+                [
+                    1345.147705078125,
+                    1486.1391155555552
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 16,
+        "parent_id": "58c1b97c7988d78495527a0726a7c85a",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "f28bdd6f783474abbbbb57c24978a1ff"
+    },
+    "page_content": "[36] Xu, Y., Xu, Y., Lv, T., Cui, L., Wei, F., Wang, G., Lu, Y., Florencio, D., Zhang, C., Che, W., et al.: Layoutlmv2: Multi-modal pre-training for visually-rich document understanding. arXiv preprint arXiv:2012.14740 (2020)",
+    "type": "Document"
+}

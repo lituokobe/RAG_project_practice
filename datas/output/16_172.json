@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9244519472122192,
+        "coordinates": {
+            "points": [
+                [
+                    377.575,
+                    938.1918933333334
+                ],
+                [
+                    377.575,
+                    1054.42356
+                ],
+                [
+                    1339.9373324408884,
+                    1054.42356
+                ],
+                [
+                    1339.9373324408884,
+                    938.1918933333334
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 16,
+        "parent_id": "58c1b97c7988d78495527a0726a7c85a",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "98fce7a2720ed7eda87a02659071b121"
+    },
+    "page_content": "[30] Schreiber, S., Agne, S., Wolf, I., Dengel, A., Ahmed, S.: Deepdesrt: Deep learning for detection and structure recognition of tables in document images. In: 2017 14th IAPR international conference on document analysis and recognition (ICDAR). vol. 1, pp. 1162–1167. IEEE (2017)",
+    "type": "Document"
+}

@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.927355945110321,
+        "coordinates": {
+            "points": [
+                [
+                    367.8238525390625,
+                    572.8946711111108
+                ],
+                [
+                    367.8238525390625,
+                    689.1263377777777
+                ],
+                [
+                    1350.8592529296875,
+                    689.1263377777777
+                ],
+                [
+                    1350.8592529296875,
+                    572.8946711111108
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 16,
+        "parent_id": "58c1b97c7988d78495527a0726a7c85a",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "c81432ac5c76b82c1ccd93d0a3ee15b1"
+    },
+    "page_content": "[26] Prasad, D., Gadpal, A., Kapadni, K., Visave, M., Sultanpure, K.: Cascadetabnet: An approach for end to end table detection and structure recognition from image- based documents. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. pp. 572–573 (2020)",
+    "type": "Document"
+}

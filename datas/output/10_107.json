@@ -1,0 +1,42 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.8998692035675049,
+        "coordinates": {
+            "points": [
+                [
+                    370.1697082519531,
+                    1012.7086355555556
+                ],
+                [
+                    370.1697082519531,
+                    1046.8473733333333
+                ],
+                [
+                    1000.7017211914062,
+                    1046.8473733333333
+                ],
+                [
+                    1000.7017211914062,
+                    1012.7086355555556
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 10,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "Title",
+        "element_id": "88f6e589165656eceebf898d0240e05c"
+    },
+    "page_content": "4 LayoutParser Community Platform",
+    "type": "Document"
+}

@@ -1,0 +1,60 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.932513952255249,
+        "coordinates": {
+            "points": [
+                [
+                    366.27215576171875,
+                    1719.5198455555555
+                ],
+                [
+                    366.27215576171875,
+                    1847.5936033333332
+                ],
+                [
+                    1342.4088134765625,
+                    1847.5936033333332
+                ],
+                [
+                    1342.4088134765625,
+                    1719.5198455555555
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "links": [
+            {
+                "text": "8",
+                "url": "cite.gardner2018allennlp",
+                "start_index": 138
+            },
+            {
+                "text": "34",
+                "url": "cite.wolf2019huggingface",
+                "start_index": 141
+            },
+            {
+                "text": "35",
+                "url": "cite.wu2019detectron2",
+                "start_index": 168
+            }
+        ],
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 2,
+        "parent_id": "e7e0acf197e89d650d39fa3ce929509e",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "583775f22c8080098beebbef960e2fbf"
+    },
+    "page_content": "LayoutParser is well aligned with recent eﬀorts for improving DL model reusability in other disciplines like natural language processing [8, 34] and com- puter vision [35], but with a focus on unique challenges in DIA. We show LayoutParser can be applied in sophisticated and large-scale digitization projects",
+    "type": "Document"
+}

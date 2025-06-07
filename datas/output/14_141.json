@@ -1,0 +1,50 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9523746371269226,
+        "coordinates": {
+            "points": [
+                [
+                    383.0164489746094,
+                    1053.2280044444444
+                ],
+                [
+                    383.0164489746094,
+                    1291.9209466666666
+                ],
+                [
+                    1354.88330078125,
+                    1291.9209466666666
+                ],
+                [
+                    1354.88330078125,
+                    1053.2280044444444
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "links": [
+            {
+                "text": "https :// www . tensorflow . org /,",
+                "url": "https://www.tensorflow.org/",
+                "start_index": 568
+            }
+        ],
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 14,
+        "parent_id": "58c1b97c7988d78495527a0726a7c85a",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "85e09a5617e58a3a78b22fd12eb29eaf"
+    },
+    "page_content": "[1] Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., Corrado, G.S., Davis, A., Dean, J., Devin, M., Ghemawat, S., Goodfellow, I., Harp, A., Irving, G., Isard, M., Jia, Y., Jozefowicz, R., Kaiser, L., Kudlur, M., Levenberg, J., Man´e, D., Monga, R., Moore, S., Murray, D., Olah, C., Schuster, M., Shlens, J., Steiner, B., Sutskever, I., Talwar, K., Tucker, P., Vanhoucke, V., Vasudevan, V., Vi´egas, F., Vinyals, O., Warden, P., Wattenberg, M., Wicke, M., Yu, Y., Zheng, X.: TensorFlow: Large-scale machine learning on heterogeneous systems (2015), https://www.tensorflow.org/, software available from tensorﬂow.org",
+    "type": "Document"
+}

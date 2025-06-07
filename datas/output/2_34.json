@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9038432836532593,
+        "coordinates": {
+            "points": [
+                [
+                    375.9794006347656,
+                    1272.3920677777778
+                ],
+                [
+                    375.9794006347656,
+                    1333.2742899999998
+                ],
+                [
+                    1345.9219970703125,
+                    1333.2742899999998
+                ],
+                [
+                    1345.9219970703125,
+                    1272.3920677777778
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 2,
+        "parent_id": "e7e0acf197e89d650d39fa3ce929509e",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "40f42a96bdd1559e09d74090c0fe9df3"
+    },
+    "page_content": "2. A rich repository of pre-trained neural network models (Model Zoo) that underlies the oﬀ-the-shelf usage",
+    "type": "Document"
+}

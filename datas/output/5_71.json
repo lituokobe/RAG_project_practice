@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.7223816514015198,
+        "coordinates": {
+            "points": [
+                [
+                    350.9988098144531,
+                    1541.5198355555553
+                ],
+                [
+                    350.9988098144531,
+                    1566.426502222222
+                ],
+                [
+                    812.3808355555553,
+                    1566.426502222222
+                ],
+                [
+                    812.3808355555553,
+                    1541.5198355555553
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 5,
+        "parent_id": "6e9df774416cc71548308e324b4bdbb7",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "366c05fd7babc86bf01d690b9df755da"
+    },
+    "page_content": "5 layout = model . detect ( image )",
+    "type": "Document"
+}

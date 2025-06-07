@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9143601059913635,
+        "coordinates": {
+            "points": [
+                [
+                    376.3634033203125,
+                    1151.28356
+                ],
+                [
+                    376.3634033203125,
+                    1206.6318933333332
+                ],
+                [
+                    1342.0323486328125,
+                    1206.6318933333332
+                ],
+                [
+                    1342.0323486328125,
+                    1151.28356
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 16,
+        "parent_id": "58c1b97c7988d78495527a0726a7c85a",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "7b2d2fbb2bcae74fae3cf85c7478eb9f"
+    },
+    "page_content": "[32] Shen, Z., Zhao, J., Dell, M., Yu, Y., Li, W.: Olala: Object-level active learning based layout annotation. arXiv preprint arXiv:2010.01762 (2020)",
+    "type": "Document"
+}

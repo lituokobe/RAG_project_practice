@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "coordinates": {
+            "points": [
+                [
+                    854.661111111111,
+                    1055.311222222222
+                ],
+                [
+                    854.661111111111,
+                    1562.3222222222223
+                ],
+                [
+                    1334.9642777777776,
+                    1562.3222222222223
+                ],
+                [
+                    1334.9642777777776,
+                    1055.311222222222
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 11,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "Image",
+        "element_id": "647c4d5f062f55d72f88755d12877836"
+    },
+    "page_content": "-—————————_ Gow Annotate Layout Dataset |i¢-— (mciaiel oi ¥ 7 : Deep Leaming Layout ayout Detection | ~~ (Mode Training & inference, ¥ Postiprocessing | «<— { Handy Data Structures & a APIs for Layout Data_) 4 Text Recognition | <—— Default ane Customized ¥ eT Visualization & Export | *—— | visualization & Storage LS rieaien Beatie tiny oa eieeate",
+    "type": "Document"
+}

@@ -1,0 +1,42 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.8778630495071411,
+        "coordinates": {
+            "points": [
+                [
+                    373.6065673828125,
+                    1386.8226233333332
+                ],
+                [
+                    373.6065673828125,
+                    1414.4965122222222
+                ],
+                [
+                    779.521240234375,
+                    1414.4965122222222
+                ],
+                [
+                    779.521240234375,
+                    1386.8226233333332
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 6,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "Title",
+        "element_id": "836e9227ef393d8b00369e6300fbba4c"
+    },
+    "page_content": "3.2 Layout Data Structures",
+    "type": "Document"
+}

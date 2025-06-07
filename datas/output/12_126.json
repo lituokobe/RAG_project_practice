@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9469041228294373,
+        "coordinates": {
+            "points": [
+                [
+                    374.3472222222222,
+                    1512.561512222222
+                ],
+                [
+                    374.3472222222222,
+                    1673.071512222222
+                ],
+                [
+                    1339.259033203125,
+                    1673.071512222222
+                ],
+                [
+                    1339.259033203125,
+                    1512.561512222222
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 12,
+        "parent_id": "9d917f215b0115c679105482b80d2d2d",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "de9e855638523c5f77ed4070813e37a3"
+    },
+    "page_content": "Overall, it is possible to create an intricate and highly accurate digitization pipeline for large-scale digitization using LayoutParser. The pipeline avoids specifying the complicated rules used in traditional methods, is straightforward to develop, and is robust to outliers. The DL models also generate ﬁne-grained results that enable creative approaches like page reorganization for OCR.",
+    "type": "Document"
+}

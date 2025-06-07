@@ -1,0 +1,54 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9491892457008362,
+        "coordinates": {
+            "points": [
+                [
+                    372.875,
+                    1553.475401111111
+                ],
+                [
+                    372.875,
+                    1846.8187344444443
+                ],
+                [
+                    1338.8221180155556,
+                    1846.8187344444443
+                ],
+                [
+                    1338.8221180155556,
+                    1553.475401111111
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "links": [
+            {
+                "text": "33",
+                "url": "cite.studer2019comprehensive",
+                "start_index": 429
+            },
+            {
+                "text": "5",
+                "url": "cite.imagenet_cvpr09",
+                "start_index": 501
+            }
+        ],
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 9,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "c4ccf2cf2e7495668221cbe51534f90b"
+    },
+    "page_content": "After the training dataset is curated, LayoutParser supports diﬀerent modes for training the layout models. Fine-tuning can be used for training models on a small newly-labeled dataset by initializing the model with existing pre-trained weights. Training from scratch can be helpful when the source dataset and target are signiﬁcantly diﬀerent and a large training set is available. However, as suggested in Studer et al.’s work[33], loading pre-trained weights on large-scale datasets like ImageNet [5], even from totally diﬀerent domains, can still boost model performance. Through the integrated API provided by LayoutParser, users can easily compare model performances on the benchmark datasets.",
+    "type": "Document"
+}

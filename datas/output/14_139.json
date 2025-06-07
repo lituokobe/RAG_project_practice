@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9363066554069519,
+        "coordinates": {
+            "points": [
+                [
+                    370.3109130859375,
+                    787.3087344444442
+                ],
+                [
+                    370.3109130859375,
+                    914.6076233333333
+                ],
+                [
+                    1352.4180908203125,
+                    914.6076233333333
+                ],
+                [
+                    1352.4180908203125,
+                    787.3087344444442
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 14,
+        "parent_id": "030602b79a8995e9a457b875d94c016d",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "dd3013dfc8b3df79d89268894b10571e"
+    },
+    "page_content": "Acknowledgements We thank the anonymous reviewers for their comments and suggestions. This project is supported in part by NSF Grant OIA-2033558 and funding from the Harvard Data Science Initiative and Harvard Catalyst. Zejiang Shen thanks Doug Downey for suggestions.",
+    "type": "Document"
+}

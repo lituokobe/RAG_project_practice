@@ -1,0 +1,50 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9394841194152832,
+        "coordinates": {
+            "points": [
+                [
+                    374.3472222222222,
+                    1586.6837344444443
+                ],
+                [
+                    374.3472222222222,
+                    1847.5936033333332
+                ],
+                [
+                    1341.2352294921875,
+                    1847.5936033333332
+                ],
+                [
+                    1341.2352294921875,
+                    1586.6837344444443
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "links": [
+            {
+                "text": "7",
+                "url": "cite.ganin2015unsupervised",
+                "start_index": 167
+            }
+        ],
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 5,
+        "parent_id": "6e9df774416cc71548308e324b4bdbb7",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "f888c5e8f5b1339f2af75612ea13c719"
+    },
+    "page_content": "LayoutParser provides a wealth of pre-trained model weights using various datasets covering diﬀerent languages, time periods, and document types. Due to domain shift [7], the prediction performance can notably drop when models are ap- plied to target samples that are signiﬁcantly diﬀerent from the training dataset. As document structures and layouts vary greatly in diﬀerent domains, it is important to select models trained on a dataset similar to the test samples. A semantic syntax is used for initializing the model weights in LayoutParser, using both the dataset name and model name lp://<dataset-name>/<model-architecture-name>.",
+    "type": "Document"
+}

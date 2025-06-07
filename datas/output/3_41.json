@@ -1,0 +1,70 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9314800500869751,
+        "coordinates": {
+            "points": [
+                [
+                    373.0552978515625,
+                    493.49484555555546
+                ],
+                [
+                    373.0552978515625,
+                    654.7769366666668
+                ],
+                [
+                    1339.5969360802223,
+                    654.7769366666668
+                ],
+                [
+                    1339.5969360802223,
+                    493.49484555555546
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "links": [
+            {
+                "text": "2",
+                "url": "section.1.2",
+                "start_index": 55
+            },
+            {
+                "text": "3",
+                "url": "section.1.3",
+                "start_index": 195
+            },
+            {
+                "text": "4",
+                "url": "section.1.4",
+                "start_index": 268
+            },
+            {
+                "text": "5",
+                "url": "section.1.5",
+                "start_index": 279
+            },
+            {
+                "text": "6",
+                "url": "section.1.6",
+                "start_index": 371
+            }
+        ],
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 3,
+        "parent_id": "f5a6697190c20bf6030d8e4ae8f6861a",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "0ce686208eb4aba70d0cd053d50c7bc2"
+    },
+    "page_content": "The rest of the paper is organized as follows. Section 2 provides an overview of related work. The core LayoutParser library, DL Model Zoo, and customized model training are described in Section 3, and the DL model hub and commu- nity platform are detailed in Section 4. Section 5 shows two examples of how LayoutParser can be used in practical DIA projects, and Section 6 concludes.",
+    "type": "Document"
+}

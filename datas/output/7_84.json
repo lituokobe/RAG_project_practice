@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9441248774528503,
+        "coordinates": {
+            "points": [
+                [
+                    373.2944444444444,
+                    1152.600401111111
+                ],
+                [
+                    373.2944444444444,
+                    1445.9437344444445
+                ],
+                [
+                    1340.598876953125,
+                    1445.9437344444445
+                ],
+                [
+                    1340.598876953125,
+                    1152.600401111111
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 7,
+        "parent_id": "2b81bd7a3f21b84379bfcd4bb175c5d1",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "16565416942e53cf65f75a8a845df211"
+    },
+    "page_content": "LayoutParser provides a uniﬁed interface for existing OCR tools. Though there are many OCR tools available, they are usually conﬁgured diﬀerently with distinct APIs or protocols for using them. It can be ineﬃcient to add new OCR tools into an existing pipeline, and diﬃcult to make direct comparisons among the available tools to ﬁnd the best option for a particular project. To this end, LayoutParser builds a series of wrappers among existing OCR engines, and provides nearly the same syntax for using them. It supports a plug-and-play style of using OCR engines, making it eﬀortless to switch, evaluate, and compare diﬀerent OCR modules:",
+    "type": "Document"
+}

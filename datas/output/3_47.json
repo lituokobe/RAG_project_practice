@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "coordinates": {
+            "points": [
+                [
+                    381.9555555555555,
+                    1665.2807066666667
+                ],
+                [
+                    381.9555555555555,
+                    1694.0763377777778
+                ],
+                [
+                    698.7475084444444,
+                    1694.0763377777778
+                ],
+                [
+                    698.7475084444444,
+                    1665.2807066666667
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 3,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "Title",
+        "element_id": "db639db124b6064248de0c0dc71510a4"
+    },
+    "page_content": "7 https://ocr-d.de/en/about",
+    "type": "Document"
+}

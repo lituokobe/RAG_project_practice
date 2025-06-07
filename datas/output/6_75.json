@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "coordinates": {
+            "points": [
+                [
+                    542.4583333333333,
+                    321.7714444444444
+                ],
+                [
+                    542.4583333333333,
+                    826.1194444444445
+                ],
+                [
+                    1166.8136666666664,
+                    826.1194444444445
+                ],
+                [
+                    1166.8136666666664,
+                    321.7714444444444
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 6,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "Image",
+        "element_id": "99b0523efea59bf4767d1c97afd56819"
+    },
+    "page_content": "3 a a 4 a 3 — usta . i 8 8 4 8 3 3 t £ a ° Hy a 6 ‘ g ¥ Coordinate g 2 8 4 + 6 * 3 8 Extra features =| 9%) | Hock) Reading é ret | | Type | | order 2 & a ¢ @ [ coordinatel textblock1, 8 3 ’ 2 Q 3 , textblock2 , layoutl ] 8 q ® A list of the layout elements ‘sf",
+    "type": "Document"
+}

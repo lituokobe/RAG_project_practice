@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "coordinates": {
+            "points": [
+                [
+                    381.9555555555555,
+                    1695.7223733333333
+                ],
+                [
+                    381.9555555555555,
+                    1724.5180044444446
+                ],
+                [
+                    1004.7084737777776,
+                    1724.5180044444446
+                ],
+                [
+                    1004.7084737777776,
+                    1695.7223733333333
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 3,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "Title",
+        "element_id": "d881ce84f017d89f6e35e2bc4b133bfc"
+    },
+    "page_content": "8 https://github.com/BobLd/DocumentLayoutAnalysis",
+    "type": "Document"
+}

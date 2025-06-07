@@ -1,0 +1,60 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.6042246222496033,
+        "coordinates": {
+            "points": [
+                [
+                    369.92120361328125,
+                    574.6586429288442
+                ],
+                [
+                    369.92120361328125,
+                    710.1579412793777
+                ],
+                [
+                    1340.67724609375,
+                    710.1579412793777
+                ],
+                [
+                    1340.67724609375,
+                    574.6586429288442
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "links": [
+            {
+                "text": "[ 13",
+                "url": "cite.he2016deep",
+                "start_index": 229
+            },
+            {
+                "text": "[ 28 ]",
+                "url": "cite.ren2015faster",
+                "start_index": 315
+            },
+            {
+                "text": "[ 12 ]",
+                "url": "cite.he2017mask",
+                "start_index": 339
+            }
+        ],
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 5,
+        "parent_id": "5a1838a8f40b4523094652cf14ab974c",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "FigureCaption",
+        "element_id": "f978160527177fa39c13774ec8dfa9cb"
+    },
+    "page_content": "1 For each dataset, we train several models of diﬀerent sizes for diﬀerent needs (the trade-oﬀ between accuracy vs. computational cost). For “base model” and “large model”, we refer to using the ResNet 50 or ResNet 101 backbones [13], respectively. One can train models of diﬀerent architectures, like Faster R-CNN [28] (F) and Mask R-CNN [12] (M). For example, an F in the Large Model column indicates it has a Faster R-CNN model trained using the ResNet 101 backbone. The platform is maintained and a number of additions will be made to the model zoo in coming months.",
+    "type": "Document"
+}

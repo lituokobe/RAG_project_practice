@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9471104741096497,
+        "coordinates": {
+            "points": [
+                [
+                    374.3472222222222,
+                    327.13373444444437
+                ],
+                [
+                    374.3472222222222,
+                    653.6881788888893
+                ],
+                [
+                    1340.3336205372223,
+                    653.6881788888893
+                ],
+                [
+                    1340.3336205372223,
+                    327.13373444444437
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 11,
+        "parent_id": "53da8301ac140e0b72cdcf6a7f405918",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "4b9eddb71426681f2828832312457b67"
+    },
+    "page_content": "focuses on precision, eﬃciency, and robustness. The target documents may have complicated structures, and may require training multiple layout detection models to achieve the optimal accuracy. Light-weight pipelines are built for relatively simple documents, with an emphasis on development ease, speed and ﬂexibility. Ideally one only needs to use existing resources, and model training should be avoided. Through two exemplar projects, we show how practitioners in both academia and industry can easily build such pipelines using LayoutParser and extract high-quality structured document data for their downstream tasks. The source code for these projects will be publicly available in the LayoutParser community hub.",
+    "type": "Document"
+}

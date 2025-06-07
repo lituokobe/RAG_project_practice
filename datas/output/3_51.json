@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "coordinates": {
+            "points": [
+                [
+                    371.80833333333334,
+                    1787.0445955555554
+                ],
+                [
+                    371.80833333333334,
+                    1815.8402266666667
+                ],
+                [
+                    854.8824204444443,
+                    1815.8402266666667
+                ],
+                [
+                    854.8824204444443,
+                    1787.0445955555554
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 3,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "Title",
+        "element_id": "4ab94e79eedc3a7ac498aaf737ca8878"
+    },
+    "page_content": "11 https://github.com/JaidedAI/EasyOCR",
+    "type": "Document"
+}

@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.4071619510650635,
+        "coordinates": {
+            "points": [
+                [
+                    351.09166666666664,
+                    1463.688232421875
+                ],
+                [
+                    351.09166666666664,
+                    1551.4626133333334
+                ],
+                [
+                    1100.1092529296875,
+                    1551.4626133333334
+                ],
+                [
+                    1100.1092529296875,
+                    1463.688232421875
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 7,
+        "parent_id": "2b81bd7a3f21b84379bfcd4bb175c5d1",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "373a9a67f855ba5b79bdc1393d2f1ce9"
+    },
+    "page_content": "1 ocr_agent = lp . TesseractAgent () 2 # Can be easily switched to other OCR software 3 tokens = ocr_agent . detect ( image )",
+    "type": "Document"
+}

@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9484137892723083,
+        "coordinates": {
+            "points": [
+                [
+                    374.3472222222222,
+                    1310.325401111111
+                ],
+                [
+                    374.3472222222222,
+                    1670.0854011111112
+                ],
+                [
+                    1340.3437215066665,
+                    1670.0854011111112
+                ],
+                [
+                    1340.3437215066665,
+                    1310.325401111111
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 10,
+        "parent_id": "88f6e589165656eceebf898d0240e05c",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "c08c76705396fe7a65be5dff6d3bffd5"
+    },
+    "page_content": "Beyond DL models, LayoutParser also promotes the sharing of entire doc- ument digitization pipelines. For example, sometimes the pipeline requires the combination of multiple DL models to achieve better accuracy. Currently, pipelines are mainly described in academic papers and implementations are often not pub- licly available. To this end, the LayoutParser community platform also enables the sharing of layout pipelines to promote the discussion and reuse of techniques. For each shared pipeline, it has a dedicated project page, with links to the source code, documentation, and an outline of the approaches. A discussion panel is provided for exchanging ideas. Combined with the core LayoutParser library, users can easily build reusable components based on the shared pipelines and apply them to solve their unique problems.",
+    "type": "Document"
+}

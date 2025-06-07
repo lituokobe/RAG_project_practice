@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9301993250846863,
+        "coordinates": {
+            "points": [
+                [
+                    376.3138122558594,
+                    1059.95856
+                ],
+                [
+                    376.3138122558594,
+                    1145.74856
+                ],
+                [
+                    1344.039306640625,
+                    1145.74856
+                ],
+                [
+                    1344.039306640625,
+                    1059.95856
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 16,
+        "parent_id": "58c1b97c7988d78495527a0726a7c85a",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "e3146a202c282ecab0d87f59d3307983"
+    },
+    "page_content": "[31] Shen, Z., Zhang, K., Dell, M.: A large dataset of historical japanese documents with complex layouts. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. pp. 548–549 (2020)",
+    "type": "Document"
+}

@@ -1,0 +1,42 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "coordinates": {
+            "points": [
+                [
+                    371.81111111111113,
+                    1817.4862622222222
+                ],
+                [
+                    371.81111111111113,
+                    1846.9792799999998
+                ],
+                [
+                    1125.5353555555555,
+                    1846.9792799999998
+                ],
+                [
+                    1125.5353555555555,
+                    1817.4862622222222
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 7,
+        "parent_id": "2b81bd7a3f21b84379bfcd4bb175c5d1",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "a2a0a2ef0279f0710f3cd34474ca8645"
+    },
+    "page_content": "13 This is also available in the LayoutParser documentation pages.",
+    "type": "Document"
+}

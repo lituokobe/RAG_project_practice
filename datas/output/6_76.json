@@ -1,0 +1,42 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.917996346950531,
+        "coordinates": {
+            "points": [
+                [
+                    367.20953369140625,
+                    854.7337344444443
+                ],
+                [
+                    367.20953369140625,
+                    1048.4520677777778
+                ],
+                [
+                    1343.2442626953125,
+                    1048.4520677777778
+                ],
+                [
+                    1343.2442626953125,
+                    854.7337344444443
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 6,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "FigureCaption",
+        "element_id": "c2a2a4a054151d16820f38e115ce7a72"
+    },
+    "page_content": "Fig. 2: The relationship between the three types of layout data structures. Coordinate supports three kinds of variation; TextBlock consists of the co- ordinate information and extra features like block text, types, and reading orders; a Layout object is a list of all possible layout elements, including other Layout objects. They all support the same set of transformation and operation APIs for maximum ﬂexibility.",
+    "type": "Document"
+}

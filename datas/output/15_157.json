@@ -1,0 +1,60 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9281865358352661,
+        "coordinates": {
+            "points": [
+                [
+                    377.575,
+                    1029.7363377777779
+                ],
+                [
+                    377.575,
+                    1207.5459466666666
+                ],
+                [
+                    1344.1208666666666,
+                    1207.5459466666666
+                ],
+                [
+                    1344.1208666666666,
+                    1029.7363377777779
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "links": [
+            {
+                "text": "https :// doi . org / 10 . 1145 / 3379350 . 3416143",
+                "url": "https://doi.org/10.1145/3379350.3416143",
+                "start_index": 288
+            },
+            {
+                "text": "https :// doi - org . offcampus .",
+                "url": "https://doi-org.offcampus.lib.washington.edu/10.1145/3379350.3416143",
+                "start_index": 329
+            },
+            {
+                "text": "lib . washington . edu / 10 . 1145 / 3379350 . 3416143",
+                "url": "https://doi-org.offcampus.lib.washington.edu/10.1145/3379350.3416143",
+                "start_index": 356
+            }
+        ],
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 15,
+        "parent_id": "58c1b97c7988d78495527a0726a7c85a",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "07cef8a161dd1c3f0895c605844d678e"
+    },
+    "page_content": "[16] Lee, B.C., Weld, D.S.: Newspaper navigator: Open faceted search for 1.5 million images. In: Adjunct Publication of the 33rd Annual ACM Sym- posium on User Interface Software and Technology. p. 120–122. UIST ’20 Adjunct, Association for Computing Machinery, New York, NY, USA (2020). https://doi.org/10.1145/3379350.3416143, https://doi-org.offcampus. lib.washington.edu/10.1145/3379350.3416143",
+    "type": "Document"
+}

@@ -1,0 +1,42 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9275594353675842,
+        "coordinates": {
+            "points": [
+                [
+                    365.52520751953125,
+                    1185.325401111111
+                ],
+                [
+                    365.52520751953125,
+                    1279.4187344444445
+                ],
+                [
+                    1343.026123046875,
+                    1279.4187344444445
+                ],
+                [
+                    1343.026123046875,
+                    1185.325401111111
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 9,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "625c9e1d41a9740f094041595f79953d"
+    },
+    "page_content": "can also be highly sensitive and not sharable publicly. To overcome these chal- lenges, LayoutParser is built with rich features for eﬃcient data annotation and customized model training.",
+    "type": "Document"
+}

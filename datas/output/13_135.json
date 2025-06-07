@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.6768885850906372,
+        "coordinates": {
+            "points": [
+                [
+                    371.80029296875,
+                    1817.4862622222222
+                ],
+                [
+                    371.80029296875,
+                    1846.2818933333333
+                ],
+                [
+                    1256.033935546875,
+                    1846.2818933333333
+                ],
+                [
+                    1256.033935546875,
+                    1817.4862622222222
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 13,
+        "parent_id": "60e4fa05c78628ec1c6fa6003b86b52e",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "abb8837ab23e7fcaa35969b0119bcc2e"
+    },
+    "page_content": "18 https://github.com/atlanhq/camelot, https://github.com/tabulapdf/tabula",
+    "type": "Document"
+}

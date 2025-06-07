@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.925807535648346,
+        "coordinates": {
+            "points": [
+                [
+                    380.5199890136719,
+                    452.8782043457031
+                ],
+                [
+                    380.5199890136719,
+                    1055.994873046875
+                ],
+                [
+                    1315.0814208984375,
+                    1055.994873046875
+                ],
+                [
+                    1315.0814208984375,
+                    452.8782043457031
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 8,
+        "parent_id": "2b81bd7a3f21b84379bfcd4bb175c5d1",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "Table",
+        "element_id": "64bc79d1132a89c71837f420d6e4e2dc"
+    },
+    "page_content": "Operation Name Description block.pad(top, bottom, right, left) Enlarge the current block according to the input block.scale(fx, fy) Scale the current block given the ratio in x and y direction block.shift(dx, dy) Move the current block with the shift distances in x and y direction block1.is in(block2) Whether block1 is inside of block2 block1.intersect(block2) Return the intersection region of block1 and block2. Coordinate type to be determined based on the inputs. block1.union(block2) Return the union region of block1 and block2. Coordinate type to be determined based on the inputs. block1.relative to(block2) Convert the absolute coordinates of block1 to relative coordinates to block2 block1.condition on(block2) Calculate the absolute coordinates of block1 given the canvas block2’s absolute coordinates block.crop image(image) Obtain the image segments in the block region",
+    "type": "Document"
+}

@@ -1,0 +1,60 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9467687606811523,
+        "coordinates": {
+            "points": [
+                [
+                    374.3472222222222,
+                    1257.3476233333333
+                ],
+                [
+                    374.3472222222222,
+                    1750.0838623046875
+                ],
+                [
+                    1338.8198864888889,
+                    1750.0838623046875
+                ],
+                [
+                    1338.8198864888889,
+                    1257.3476233333333
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "links": [
+            {
+                "text": "12",
+                "url": "cite.he2017mask",
+                "start_index": 179
+            },
+            {
+                "text": "38",
+                "url": "cite.zhong2019publaynet",
+                "start_index": 217
+            },
+            {
+                "text": "6",
+                "url": "figure.caption.11",
+                "start_index": 957
+            }
+        ],
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 13,
+        "parent_id": "60e4fa05c78628ec1c6fa6003b86b52e",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "923b62eb8550ec49cf6d3f2e6bac7ec8"
+    },
+    "page_content": "The extractor uses a pre-trained layout detection model for identifying the table regions and some simple rules for pairing the rows and the columns in the PDF image. Mask R-CNN [12] trained on the PubLayNet dataset [38] from the LayoutParser Model Zoo can be used for detecting table regions. By ﬁltering out model predictions of low conﬁdence and removing overlapping predictions, LayoutParser can identify the tabular regions on each page, which signiﬁcantly simpliﬁes the subsequent steps. By applying the line detection functions within the tabular segments, provided in the utility module from LayoutParser, the pipeline can identify the three distinct columns in the tables. A row clustering method is then applied via analyzing the y coordinates of token bounding boxes in the left-most column, which are obtained from the OCR engines. A non-maximal suppression algorithm is used to remove duplicated rows with extremely small gaps. Shown in Figure 6, the built pipeline can detect tables at diﬀerent positions on a page accurately. Continued tables from diﬀerent pages are concatenated, and a structured table representation has been easily created.",
+    "type": "Document"
+}

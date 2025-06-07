@@ -1,0 +1,55 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9256622195243835,
+        "coordinates": {
+            "points": [
+                [
+                    372.93611111111113,
+                    1327.1670677777777
+                ],
+                [
+                    372.93611111111113,
+                    1753.3465122222221
+                ],
+                [
+                    838.6103515625,
+                    1753.3465122222221
+                ],
+                [
+                    838.6103515625,
+                    1327.1670677777777
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "links": [
+            {
+                "text": "4",
+                "url": "figure.caption.9",
+                "start_index": 19
+            },
+            {
+                "text": "15 ,",
+                "url": "Hfootnote.10",
+                "start_index": 83
+            }
+        ],
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 11,
+        "parent_id": "54ee49eac3f4e6098811cda1f9dd0306",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "42551c9b40827dcdc52055b4d25c6fc3"
+    },
+    "page_content": "As shown in Figure 4 (a), the document contains columns of text written vertically 15, a common style in Japanese. Due to scanning noise and archaic printing technology, the columns can be skewed or have vari- able widths, and hence cannot be eas- ily identiﬁed via rule-based methods. Within each column, words are sepa- rated by white spaces of variable size, and the vertical positions of objects can be an indicator of their layout type.",
+    "type": "Document"
+}

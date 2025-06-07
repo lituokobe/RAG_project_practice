@@ -1,0 +1,60 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9473738074302673,
+        "coordinates": {
+            "points": [
+                [
+                    373.35,
+                    1106.3504011111108
+                ],
+                [
+                    373.35,
+                    1500.3734130859375
+                ],
+                [
+                    1338.8087062377779,
+                    1500.3734130859375
+                ],
+                [
+                    1338.8087062377779,
+                    1106.3504011111108
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "links": [
+            {
+                "text": "6",
+                "url": "cite.deng2017image",
+                "start_index": 766
+            },
+            {
+                "text": "model detects a total of 15 possible categories , and achieves a 0 . 98 Jaccard score16",
+                "url": "Hfootnote.11",
+                "start_index": 774
+            },
+            {
+                "text": "for",
+                "url": "Hfootnote.12",
+                "start_index": 901
+            }
+        ],
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 12,
+        "parent_id": "9d917f215b0115c679105482b80d2d2d",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "60c2e2147d0b0dbd576d51b71a95a2ef"
+    },
+    "page_content": "Additionally, it is common for historical documents to use unique fonts with diﬀerent glyphs, which signiﬁcantly degrades the accuracy of OCR models trained on modern texts. In this document, a special ﬂat font is used for printing numbers and could not be detected by oﬀ-the-shelf OCR engines. Using the highly ﬂexible functionalities from LayoutParser, a pipeline approach is constructed that achieves a high recognition accuracy with minimal eﬀort. As the characters have unique visual structures and are usually clustered together, we train the layout model to identify number regions with a dedicated category. Subsequently, LayoutParser crops images within these regions, and identiﬁes characters within them using a self-trained OCR model based on a CNN-RNN [6]. The model detects a total of 15 possible categories, and achieves a 0.98 Jaccard score16 and a 0.17 average Levinstein distances17 for token prediction on the test set.",
+    "type": "Document"
+}

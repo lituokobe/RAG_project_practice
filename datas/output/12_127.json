@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.895841658115387,
+        "coordinates": {
+            "points": [
+                [
+                    368.81378173828125,
+                    1726.16404
+                ],
+                [
+                    368.81378173828125,
+                    1785.3985599999999
+                ],
+                [
+                    1343.402099609375,
+                    1785.3985599999999
+                ],
+                [
+                    1343.402099609375,
+                    1726.16404
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 12,
+        "parent_id": "9d917f215b0115c679105482b80d2d2d",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "a375a901ba62c168a96725c055b47bad"
+    },
+    "page_content": "16 This measures the overlap between the detected and ground-truth characters, and the maximum is 1.",
+    "type": "Document"
+}

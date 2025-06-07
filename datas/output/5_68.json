@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.7211623191833496,
+        "coordinates": {
+            "points": [
+                [
+                    331.2705078125,
+                    1419.7531688888887
+                ],
+                [
+                    331.2705078125,
+                    1566.426502222222
+                ],
+                [
+                    1232.4298095703125,
+                    1566.426502222222
+                ],
+                [
+                    1232.4298095703125,
+                    1419.7531688888887
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 5,
+        "parent_id": "6e9df774416cc71548308e324b4bdbb7",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "2f41c1732a2870b1fecd72dec1b2ff3d"
+    },
+    "page_content": "1 import layoutparser as lp 2 image = cv2 . imread ( \" image_file \" ) # load images 3 model = lp . De t e c tro n2 Lay outM odel ( 4 \" lp :// PubLayNet / f as t er _ r c nn _ R _ 50 _ F P N_ 3 x / config \" ) 5 layout = model . detect ( image )",
+    "type": "Document"
+}

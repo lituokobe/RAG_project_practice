@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "coordinates": {
+            "points": [
+                [
+                    381.9555555555555,
+                    1726.16404
+                ],
+                [
+                    381.9555555555555,
+                    1754.9596711111112
+                ],
+                [
+                    865.0817004444443,
+                    1754.9596711111112
+                ],
+                [
+                    865.0817004444443,
+                    1726.16404
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 3,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "Title",
+        "element_id": "9b96c128deddda1a32c739a2df157496"
+    },
+    "page_content": "9 https://github.com/leonlulu/DeepLayout",
+    "type": "Document"
+}

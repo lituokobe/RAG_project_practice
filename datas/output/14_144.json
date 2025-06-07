@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.9280935525894165,
+        "coordinates": {
+            "points": [
+                [
+                    376.1464538574219,
+                    1543.847448888889
+                ],
+                [
+                    376.1464538574219,
+                    1629.637448888889
+                ],
+                [
+                    1349.1282958984375,
+                    1629.637448888889
+                ],
+                [
+                    1349.1282958984375,
+                    1543.847448888889
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 14,
+        "parent_id": "58c1b97c7988d78495527a0726a7c85a",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "292dd088dc6a174159395e31be7755d7"
+    },
+    "page_content": "[4] Baek, Y., Lee, B., Han, D., Yun, S., Lee, H.: Character region awareness for text detection. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 9365–9374 (2019)",
+    "type": "Document"
+}

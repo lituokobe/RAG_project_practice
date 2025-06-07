@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.927026093006134,
+        "coordinates": {
+            "points": [
+                [
+                    369.7825622558594,
+                    329.36411555555543
+                ],
+                [
+                    369.7825622558594,
+                    415.1541155555555
+                ],
+                [
+                    1350.072509765625,
+                    415.1541155555555
+                ],
+                [
+                    1350.072509765625,
+                    329.36411555555543
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 15,
+        "parent_id": "58c1b97c7988d78495527a0726a7c85a",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "ListItem",
+        "element_id": "a742cc226eba47ed37993cde0d2718d9"
+    },
+    "page_content": "[8] Gardner, M., Grus, J., Neumann, M., Tafjord, O., Dasigi, P., Liu, N., Peters, M., Schmitz, M., Zettlemoyer, L.: Allennlp: A deep semantic natural language processing platform. arXiv preprint arXiv:1803.07640 (2018)",
+    "type": "Document"
+}

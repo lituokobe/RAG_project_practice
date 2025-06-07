@@ -1,0 +1,42 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "coordinates": {
+            "points": [
+                [
+                    466.1507048888888,
+                    257.4113377777776
+                ],
+                [
+                    466.1507048888888,
+                    282.31800444444434
+                ],
+                [
+                    616.9257022222222,
+                    282.31800444444434
+                ],
+                [
+                    616.9257022222222,
+                    257.4113377777776
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 4,
+        "parent_id": "460b163c13ad7cad4fce325820a76481",
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "92c4289ad4af7c0793e40d5662707e0a"
+    },
+    "page_content": "Z. Shen et al.",
+    "type": "Document"
+}

@@ -1,0 +1,42 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../datas/layout-parser-paper.pdf",
+        "detection_class_prob": 0.8724807500839233,
+        "coordinates": {
+            "points": [
+                [
+                    371.2256164550781,
+                    1720.7836355555555
+                ],
+                [
+                    371.2256164550781,
+                    1753.9925244444444
+                ],
+                [
+                    598.6593627929688,
+                    1753.9925244444444
+                ],
+                [
+                    598.6593627929688,
+                    1720.7836355555555
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 1700,
+            "layout_height": 2200
+        },
+        "last_modified": "2025-04-07T09:54:10",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 10,
+        "file_directory": "../datas",
+        "filename": "layout-parser-paper.pdf",
+        "category": "Title",
+        "element_id": "53da8301ac140e0b72cdcf6a7f405918"
+    },
+    "page_content": "5 Use Cases",
+    "type": "Document"
+}
