@@ -4,7 +4,7 @@ import numpy as np
 client = MilvusClient(uri = 'http://127.0.0.1:19530/') #port 19530 is for database operation
 
 #create a collection
-client.create_collection(
+client.create_connection(
     collection_name='demo_collection',
     dimension=384, # the dimension of the vector. each vector is an array of 384 floats
 )

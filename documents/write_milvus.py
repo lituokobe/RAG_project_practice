@@ -1,7 +1,9 @@
 # Using a Distributed, Multi-Process Approach to Write Massive Data into the Milvus Database
+import multiprocessing
 import os
 from multiprocessing import Queue
 from RAG_project_practice.documents.markdown_parser import MarkdownParser
+from RAG_project_practice.documents.milvus_db import MilvusVectorSave
 from RAG_project_practice.utils.log_utils import log
 
 
@@ -53,3 +55,61 @@ def file_parser_process(dir_path: str, output_queue: Queue, batch_size: int = 20
     log.info(f"Parsing process ends and processed {len(md_files)} documents.")
 
 
+def milvus_writer_process(input_queue: Queue):
+    """
+    Process 2: read the queue and write the result to Milvus
+    :param input_queue:
+    :return:
+    """
+    mv = MilvusVectorSave()
+    mv.create_connection()
+
+    total_count = 0
+    while True:
+        try:
+            #A blocking function is a function that prevents further execution of the program until it completes its task.
+            #When a blocking function is called, the program must wait for it to finish before proceeding to the next instruction.
+            datas = input_queue.get() # blocking function
+            if datas is None: #receives signal of ending
+                break
+            if isinstance(datas, list):
+                mv.add_documents(datas)
+                total_count += len(datas)
+                log.info(f"Added {len(datas)} documents.")
+        except Exception as e:
+            log.warning(f"Error while writing.")
+            log.exception(e)
+
+    log.info(f"Milvus writer process ends and processed {total_count} documents.")
+
+
+if __name__ == '__main__':
+    # configure parameters
+    md_dir = '../md'  # Markdown file directory
+    queue_maxsize = 20  # max capacity of the queue to prevent RAM overload
+
+    mv = MilvusVectorSave()
+    mv.create_collection()
+    # mv.create_connection()
+
+    # create queue
+    docs_queue = Queue(maxsize=queue_maxsize)
+
+    # initiate child processes
+    parser_proc = multiprocessing.Process(
+        target=file_parser_process,
+        args=(md_dir, docs_queue)
+    )
+    writer_proc = multiprocessing.Process(
+        target=milvus_writer_process,
+        args=(docs_queue,)
+    )
+
+    parser_proc.start()
+    writer_proc.start()
+
+    # wait for the processes to end
+    parser_proc.join()
+    writer_proc.join()
+
+    print("System notification: all tasks are done.")

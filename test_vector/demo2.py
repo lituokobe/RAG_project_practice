@@ -37,7 +37,7 @@ index_params.add_index(
 )
 
 # create a collection
-client.create_collection(
+client.create_connection(
     collection_name='t_demo2',
     schema=schema,
     index_params=index_params

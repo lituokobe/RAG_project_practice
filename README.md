@@ -1,19 +1,63 @@
-In this RAG practice, we use Milvus as the vector database as it is the most popular one now.
-- In demo, we connect to local Milvus Lite and perform some basic database operation.
-- In demo1, we connect to a Milvus Standalone on a server (local machine) and perform some basic database operation.
+# 🚀 RAG Practice Repository  
 
+## 📌 Overview  
+This repository contains hands-on exercises in **Retrieval-Augmented Generation (RAG)**, focusing on key skills relevant as of **June 2025**, including:  
+- **Building a Milvus database** for efficient retrieval  
+- **Loading and processing various file formats** (HTML, Markdown, PDF, Excel, Word, etc.)  
+- **Data chunking and embedding** using **sparse (BM25)** and **dense (bge) vector methods**  
+- **Retrieving data** with **Approximate Nearest Neighbor (ANN), full-text search, and hybrid search**  
+- **Understanding and implementing Agent-RAG**  
+- **Developing RAG agents** for a Chinese semiconductor company :  
+  - **Corrective RAG agent** (`graph1.py`)  
+  - **Adaptive RAG agent** (`graph2.py`)  
 
-Under text-load:
-- In demo1, we used basic PyPDFLoader to parse a PDF document.
-- In demo2, we used langchain_unstructured (local) to parse a PDF documents and output the jsons.
-- In demo3, we defined a function to recover the content from a generated json file.
-- In demo4, we used langchain_unstructured to load a markdown file.
+---
 
-Under documents:
-- In markdown_parser, we defined a chunking and loading class for markdown documents, it can parse and load the document, merge paragraphs under one title, and chunk long content.
-- In milvus_db, we created a class with functions to create a collection with index of dense and sparse vectors.
-- In write_milvus, 
+## 🗂 Repository Structure  
 
-Under test_vector:
-- In demo1, we practiced dense embedding with bge.
-- In demo2, we practiced sparse embedding with BM25 using index.
+### 🔹 **Demo**  
+- `demo`: Connects to **local Milvus Lite** for basic database operations  
+- `demo1`: Connects to **Milvus Standalone** on a **server (local machine)** for database operations  
+
+### 🔹 **Data Loading (`./text-load`)**  
+- `demo1.py`: Parses PDFs using **PyPDFLoader**  
+- `demo2.py`: Parses PDFs using **LangChain Unstructured**, outputting JSONs  
+- `demo3.py`: Defines a function to **recover content** from a generated JSON file  
+- `demo4.py`: Loads Markdown files with **LangChain Unstructured**  
+
+### 🔹 **Document Processing (`./documents`)**  
+- `markdown_parser.py`: Defines a **chunking and loading class** for Markdown, merging paragraphs and handling long content  
+- `milvus_db.py`: Implements a class to **create collections and indexes** for **dense and sparse vectors**  
+- `write_milvus.py`: Defines **parallel processing functions** to parse Markdown and store data in **Milvus**  
+
+### 🔹 **Embedding Practice (`./test_vector`)**  
+- `demo1.py`: Tests **dense embedding** with **bge**  
+- `demo2.py`: Tests **sparse embedding** with **BM25 indexing**  
+
+### 🔹 **Search Techniques (`./search_tool`)**  
+- `test_search.py`: Explores different retrieval methods using **PyMilvus** and **LangChain-Milvus**:  
+  - **ANN (dense vector)**  
+  - **Full-text search (sparse vector)**  
+  - **Hybrid search**   
+
+### 🔹 **Tools (`./tools`)**  
+- `retriever_tools.py`: Encapsulates **hybrid search** with **LangChain-Milvus** into a **retriever tool**  
+
+### 🔹 **Agents (`./agent`)**  
+- `rag_agent`: Experiments with **LangChain agent** using the retriever tool  
+
+### 🔹 **Corrective RAG Agents (`./graph`)**  
+- `graph1`: Implements a **Corrective RAG agent** with chat memory
+---
+
+## 🎯 Capstone Project: **Adaptive RAG Agent (`./graph2`)** 
+The project showcases an **Adaptive RAG agent**, dynamically adjusting its response based on **retrieved documents and web search results**.  
+
+This approach enhances accuracy and relevance in information retrieval for a Chinese semiconductor company.
+- `graph2`: Implements an **Adaptive RAG agent**, balancing **web search** and **RAG query results** for optimal answers  
+
+**Flowchart:**  
+    ![RAG Agent Flowchart](./RAG_project_flowchart.png)  
+  
+
+🚀 **Start exploring the repository!** Let me know if you’d like further refinements. 🔥  
