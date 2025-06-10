@@ -1,4 +1,4 @@
-# 🚀 RAG Practice Repository  
+# 🚀 RAG Practice
 
 ## 📌 Overview  
 This repository contains hands-on exercises in **Retrieval-Augmented Generation (RAG)**, focusing on key skills relevant as of **June 2025**, including:  
@@ -8,16 +8,16 @@ This repository contains hands-on exercises in **Retrieval-Augmented Generation 
 - **Retrieving data** with **Approximate Nearest Neighbor (ANN), full-text search, and hybrid search**  
 - **Understanding and implementing Agent-RAG**  
 - **Developing RAG agents** for a Chinese semiconductor company :  
-  - **Corrective RAG agent** (`graph1.py`)  
-  - **Adaptive RAG agent** (`graph2.py`)  
+  - **Corrective RAG agent**  
+  - **Adaptive RAG agent** 
 
 ---
 
 ## 🗂 Repository Structure  
 
 ### 🔹 **Demo**  
-- `demo`: Connects to **local Milvus Lite** for basic database operations  
-- `demo1`: Connects to **Milvus Standalone** on a **server (local machine)** for database operations  
+- `demo.py`: Connects to **local Milvus Lite** for basic database operations  
+- `demo1.py`: Connects to **Milvus Standalone** on a **server (local machine)** for database operations  
 
 ### 🔹 **Data Loading (`./text-load`)**  
 - `demo1.py`: Parses PDFs using **PyPDFLoader**  
@@ -44,17 +44,17 @@ This repository contains hands-on exercises in **Retrieval-Augmented Generation 
 - `retriever_tools.py`: Encapsulates **hybrid search** with **LangChain-Milvus** into a **retriever tool**  
 
 ### 🔹 **Agents (`./agent`)**  
-- `rag_agent`: Experiments with **LangChain agent** using the retriever tool  
+- `rag_agent.py`: Experiments with **LangChain agent** using the retriever tool  
 
 ### 🔹 **Corrective RAG Agents (`./graph`)**  
-- `graph1`: Implements a **Corrective RAG agent** with chat memory
+- `graph1.py`: Implements a **Corrective RAG agent** with chat memory
 ---
 
 ## 🎯 Capstone Project: **Adaptive RAG Agent (`./graph2`)** 
 The project showcases an **Adaptive RAG agent**, dynamically adjusting its response based on **retrieved documents and web search results**.  
 
 This approach enhances accuracy and relevance in information retrieval for a Chinese semiconductor company.
-- `graph2`: Implements an **Adaptive RAG agent**, balancing **web search** and **RAG query results** for optimal answers  
+- `graph2.py`: Implements an **Adaptive RAG agent**, balancing **web search** and **RAG query results** for optimal answers  
 
 **Flowchart:**  
     ![RAG Agent Flowchart](./RAG_project_flowchart.png)  
