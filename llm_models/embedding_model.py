@@ -1,5 +1,12 @@
+import os
+from dotenv import load_dotenv
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_openai import OpenAIEmbeddings
+
+from RAG_project_practice.path import ENV_PATH
+
+load_dotenv(ENV_PATH)
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 openai_embedding = OpenAIEmbeddings()
 

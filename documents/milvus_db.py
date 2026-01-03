@@ -54,7 +54,10 @@ class MilvusVectorSave:
                          datatype=DataType.VARCHAR,
                          max_length=6000,
                          enable_analyzer=True,
-                         analyzer_params={'tokenizer': 'jieba', 'filter': ['cnalphanumonly']}
+                         analyzer_params={
+                             'tokenizer': 'jieba',
+                             'filter': ['cnalphanumonly']
+                         }
                          )
 
         schema.add_field(field_name='category', datatype=DataType.VARCHAR, max_length=1000)
@@ -62,7 +65,6 @@ class MilvusVectorSave:
         schema.add_field(field_name='filename', datatype=DataType.VARCHAR, max_length=1000)
         schema.add_field(field_name='filetype', datatype=DataType.VARCHAR, max_length=1000)
         schema.add_field(field_name='title', datatype=DataType.VARCHAR, max_length=1000)
-        schema.add_field(field_name='category_depth', datatype=DataType.INT64)
         schema.add_field(field_name='sparse', datatype=DataType.SPARSE_FLOAT_VECTOR)
         schema.add_field(field_name='dense', datatype=DataType.FLOAT_VECTOR, dim=512)
 
@@ -81,7 +83,7 @@ class MilvusVectorSave:
             field_name="sparse",
             index_name="sparse_inverted_index",
             index_type="SPARSE_INVERTED_INDEX",  # Inverted index type for sparse vectors
-            metric_type="BM25",
+            metric_type=MetricType.IP,
             params={
                 "inverted_index_algo": "DAAT_MAXSCORE",
                 # Algorithm for building and querying the index. Valid values: DAAT_MAXSCORE, DAAT_WAND, TAAT_NAIVE.
@@ -95,7 +97,7 @@ class MilvusVectorSave:
             index_name="dense_inverted_index",
             index_type=IndexType.HNSW,  # Inverted index type for sparse vectors
             metric_type=MetricType.IP,
-            params={"M": 16, "efConstruction": 64}  # M: count of near node to connet, efConstruction: search scope
+            params={"M": 16, "efConstruction": 64}  # M: count of near node to connect, efConstruction: search scope
         )
 
         if COLLECTION_NAME in client.list_collections():

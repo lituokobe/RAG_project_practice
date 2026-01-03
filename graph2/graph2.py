@@ -102,7 +102,7 @@ workflow.add_node('web_search', web_search)
 workflow.add_node('retrieve', retrieve)
 workflow.add_node('grade_documents', grade_documents)
 workflow.add_node('generate', generate)
-workflow.add_node('transform_query', transfor   m_query)
+workflow.add_node('transform_query', transform_query)
 
 #add edges
 workflow.add_conditional_edges(

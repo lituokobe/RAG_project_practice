@@ -1,7 +1,7 @@
 from pymilvus import MilvusClient
 import numpy as np
-
-client = MilvusClient(uri = 'http://127.0.0.1:19530/') #port 19530 is for database operation
+# client = MilvusClient('./milvus_demo.db') # This is for Milvus Lite
+client = MilvusClient(uri = 'http://127.0.0.1:19530/') # This is for Milvus Standalone, port 19530 is for database operation
 
 #create a collection
 client.create_connection(
